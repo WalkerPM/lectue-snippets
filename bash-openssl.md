@@ -6,26 +6,26 @@
 
 Генерируем приватный и публичные ключи
 
-'''bash
+```bash
 ssh-keygen
-'''
+```
 Обмен публичным ключом
-'''bash
+```bash
 ssh-copy-id user@target-host
-'''
+```
 
 Проверяем
 
 Работа с внешними ключами
 
-'''bash
+```bash
 ssh-keygen -f filename
 ssh-copy-id -i filename.pub user@target-host
-'''
+```
 
 OpenSSL
 
-'''bash
+```bash
 openssl genrsa > private_key
 
-'''
+```
