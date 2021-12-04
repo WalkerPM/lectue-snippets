@@ -23,6 +23,11 @@ ssh-keygen -f filename
 ssh-copy-id -i filename.pub user@target-host
 ```
 
+Если ключ был получен извне
+```bash
+ssh -i key-name user@host
+```
+
 OpenSSL
 
 ```bash
